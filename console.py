@@ -239,5 +239,3 @@ class HBNBCommand(cmd.Cmd):
         return cls_name, func_name, id, str(f_args)
 
 
-if __name__ == '__main__':
-    HBNBCommand().cmdloop()
